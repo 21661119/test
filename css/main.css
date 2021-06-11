@@ -1,0 +1,129 @@
+
+.trailer{
+  text-align: center;
+  padding-top:150px;
+}
+section#main_text_box1{
+
+  height:140px;
+  text-align: center;
+  background-color: #D5F24A;
+  margin-top: 150px;
+}
+section#main_text_box1 p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size:30px;
+  font-weight:100;
+  letter-spacing: 0.2rem;
+  /*margin:80px 0 0 0;*/
+  padding-top: 45px;
+}
+section#main_text_box2{
+  /*height:140px;*/
+  text-align: center;
+  margin: 50px 0;
+}
+section#main_text_box2 p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+  font-size:16px;
+  line-height: 2rem;
+  padding-top: 45px;
+  color:#D5F24A;
+}
+section#main_text_box3{
+  height:190px;
+  text-align: center;
+  background-color: #D5F24A;
+  margin-top: 100px;
+}
+section#main_text_box3 p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size:30px;
+  font-weight:100;
+  line-height: 3rem;
+  /*margin:80px 0 0 0;*/
+  padding-top: 45px;
+}
+
+#still_cut{
+  font-family: 'Noto Sans KR', sans-serif;
+  width:1048px;
+  height:600px;
+  margin: 0 auto;
+  padding:100px 0;
+}
+#still_cut_title{
+  width:572px;
+  margin:0 auto;
+  padding-bottom: 50px;
+  font-size:50px;
+  text-align: center;
+  font-weight:bold;
+  color:#D5F24A;
+}
+#main_img{
+  padding-top:15px;
+}
+#thumnail{
+  width:480px;
+  margin:0 auto;
+}
+#thumnail #move_left{
+  float:left;
+  margin:20px 5px 0 40px;
+}
+#thumnail #photos{
+  float:left;
+  margin:3px 0 0 0;
+}
+#thumnail #move_right{
+  float:left;
+  margin:20px 0 0 20px;
+}
+#thumnail #photos li{
+  display:inline;
+  margin-left:10px
+}
+#thumnail #photos img{
+  border:solid 5px #65b6af;
+}
+#thumnail #photos a:hover img{
+  border:solid 5px #D5F24A;
+}
+#album{
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  padding:150px 0 80px 0;
+}
+#album_title{
+  font-family: 'Noto Sans KR', sans-serif;
+  width:600px;
+  margin:0 auto;
+  /*padding-bottom: 50px;*/
+  font-size:45px;
+  text-align: center;
+  font-weight:bold;
+  /*letter-spacing: 0.08rem;*/
+  color:#D5F24A;
+}
+#album_img{
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -ms-transform:scale(1);
+  -o-transform:scale(1);
+  transform:scale(1);
+  -webkit-transition:.3s;
+  -moz-transition:.3s;
+  -ms-transition:.3s;
+  -o-transition:.3s;
+  transition:.3s;
+}
+#album_img:hover{
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  transform:scale(1.1);
+}
